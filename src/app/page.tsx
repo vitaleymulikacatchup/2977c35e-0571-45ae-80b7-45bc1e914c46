@@ -1,4 +1,4 @@
-use client";
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -24,7 +24,7 @@ export default function Page() {
       defaultTextAnimation="reveal-blur"
       borderRadius="sharp"
     >
-      <div id="nav" data-section="nav">
+      <div id="nav" data-section="nav" className="scroll-mt-24">
         <NavbarLayoutFloatingOverlay 
           navItems={[{ name: "Home", id: "home" }, { name: "About", id: "about" }, { name: "Features", id: "features" }, { name: "Contact", id: "contact" }]}
           brandName="Techno Main Salt Lake"
